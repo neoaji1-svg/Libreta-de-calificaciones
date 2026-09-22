@@ -41,9 +41,7 @@ mi-repositorio/
 ├── Librocalificaciones/            # Proyecto 1: Promedio de 10 calificaciones (Contador)
 │   ├── LibroCalificaciones.cs      # Lógica de la clase e iteración por contador
 │   ├── Program.cs                  # Punto de entrada y prueba de la solución
-│   └── Librocalificaciones.csproj  # Configuración del proyecto C#
 ├── Librodecalificaciones_2/        # Proyecto 2: Promedio con valor centinela
 │   ├── LibroCalificaciones.cs      # Lógica de la clase con centinela y casting double
 │   ├── Program.cs                  # Punto de entrada y prueba de la solución
-│   └── Librodecalificaciones_2.csproj
 └── README.md                       # Documentación del proyecto
