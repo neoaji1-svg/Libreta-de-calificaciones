@@ -1,0 +1,50 @@
+using System;
+
+public class LibroCalificaciones
+{
+	private string nombreCruso;
+
+    public LibroCalificaciones (string nombre)
+	{
+		NombreCurso = nombre;
+	}
+	public string NombreCurso
+	{
+		get
+		{
+			return nombreCruso;
+		}
+		set
+		{
+            nombreCruso = value;
+		}
+	}
+
+	public void MostrarMensaje()
+	{
+		Console.WriteLine("Bienvenido al libro de calificaciones de \n{0}!\n", NombreCurso);
+	}
+
+	public void DeterminarPromedioClase()
+	{
+		int total;
+		int contadorcalif;
+		int calificacion;
+		int promedio;
+
+		total = 0;
+		contadorcalif = 1;
+
+		while (contadorcalif <= 10)
+		{
+			Console.Write("Escriba calificacion: ");
+			calificacion = Convert.ToInt32(Console.ReadLine());
+			total = total + calificacion;
+			contadorcalif = contadorcalif + 1;
+		}
+
+		promedio = total / 10;
+		Console.WriteLine("\n El total de ñas 10 calificaciones es {0}", total);
+		Console.WriteLine("El promedio de la clase es {0}", promedio);
+	}
+}
