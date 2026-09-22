@@ -1,0 +1,14 @@
+namespace Librodecalificaciones_2
+{
+    public class PruebaLibroCalifiaciones
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello, World!");
+            LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones("CS101M Introduccion a la programacion en C#");
+
+            miLibroCalificaciones.MostrarMensaje();
+            miLibroCalificaciones.DeterminarPromedioClase();
+        }
+    }
+}
